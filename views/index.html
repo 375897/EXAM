@@ -51,15 +51,19 @@
         
       }
       .black {
-        
+        display: flex;
+        justify-content: center;
         margin: 5px;
         padding: 15px 24px;
-        display: flex;
         border-style: solid;
         border-color: goldenrod;
         box-shadow: 2px 2px DarkGoldenRod;
+        
       }
-
+      #center{
+  display: flex;
+  justify-content: center;
+      }
         
       }
     </style>
@@ -80,9 +84,9 @@
   </div>
     
     
-    
+    <div id= "center">
     <canvas id="myCanvas" class= "black" width="480" height="320"></canvas>
-
+ </div>
     <script>
       var canvas = document.getElementById("myCanvas");
 
